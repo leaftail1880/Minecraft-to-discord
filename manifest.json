@@ -1,0 +1,36 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Example pack",
+		"description": "Description",
+		"uuid": "1e1328ef-e274-4bae-a5ad-b82a9c86881c",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 19, 50]
+	},
+	"modules": [
+		{
+			"description": "Data Module",
+			"type": "data",
+			"uuid": "a29d4751-ec81-489f-9446-380dfe3473db",
+			"version": [1, 0, 0]
+		},
+		{
+			"description": "JS Module",
+			"language": "javascript",
+			"type": "script",
+			"uuid": "def87e84-cf29-4435-93c0-ef83142e6701",
+			"version": [1, 0, 0],
+			"entry": "scripts/index.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.1.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
+		}
+	]
+}

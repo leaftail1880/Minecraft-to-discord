@@ -1,0 +1,10 @@
+{
+	"name": "example",
+	"version": "1.0.0",
+	"description": "Simple mc to discord sync",
+	"author": "xiller228",
+	"license": "MIT",
+	"dependencies": {
+		"minecraft-extra": "^1.0.3"
+	}
+}
